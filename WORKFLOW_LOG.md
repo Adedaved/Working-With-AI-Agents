@@ -25,3 +25,9 @@ The user requested an easy-to-understand tutorial in ten repository folders matc
 Validation results are recorded below after they run. The pull request provides the actual changes for human review. Merge remains a separate approval decision.
 
 Initial verification passed: exactly 10 chapter folders, 70 lessons, 108 source entries, 364 local Markdown links, all six synthetic ticket IDs, a correct tool calculation and rejection of three invalid call cases. No linked IBM cloud lab was executed.
+
+## PDF export and review
+
+The PDF was generated after the initial repository tutorial commit. Rendering exposed awkward splits between lessons and checkpoints; the layout was revised to keep each lesson together. The final export is 85 pages. Every concept paragraph and all 108 source IDs are present in the extracted text, with no replacement glyphs. All final pages were rendered and visually inspected. The source links, tables, capstone template and local code example are included.
+
+The PDF, generator and validation record are added on the same review branch. The user must review and approve the pull request before merge to main.

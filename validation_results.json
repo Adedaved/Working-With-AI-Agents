@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-14",
+  "chapters": 10,
+  "lessons": 70,
+  "source_entries": 108,
+  "initial_local_links_checked": 364,
+  "pages": 85,
+  "pdf_bytes": 301083,
+  "pdf_sha256": "5494e027acae84337e5344fd190452f878cede00f6f4895ef17e0ee55320f64e",
+  "missing_concept_paragraphs": [],
+  "all_source_ids_present": true,
+  "replacement_glyphs": 0,
+  "visual_review": "All final pages rendered and inspected; lesson blocks, source index and appendices reviewed",
+  "external_ibm_labs_executed": false
+}
