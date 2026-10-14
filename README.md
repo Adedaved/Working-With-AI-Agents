@@ -4,6 +4,8 @@ A beginner-friendly learning path following the ten topic groups in [IBM's AI ag
 
 **10 chapters | 70 lessons | 108 mapped navigation entries | Source snapshot: 14 October 2026**
 
+[Download the complete tutorial PDF (85 pages)](Working_With_AI_Agents_Tutorial.pdf)
+
 ## How to use this tutorial
 
 1. Start with Introduction and Components.
@@ -54,3 +56,14 @@ IBM's navigation spells one item "Agent gateaway"; the linked article and this t
 ## What was actually run
 
 Repository structure and source-coverage checks, internal-link checks, and the local deterministic tool-call demo are validated during this build. The full PDF is rendered and visually reviewed before delivery. Linked IBM cloud and framework labs are study resources; they have not been provisioned or run by this build.
+
+## Rebuild the PDF
+
+The PDF is generated from the same Markdown lesson files you read in the repository. Install ReportLab, then run the builder:
+
+```bash
+python3 -m pip install -r requirements-pdf.txt
+python3 build_pdf.py
+```
+
+The builder uses DejaVu fonts when available and falls back to standard PDF fonts. [Recorded validation results](validation_results.json) describe the delivered version; [PDF builder](build_pdf.py) contains the export implementation.
