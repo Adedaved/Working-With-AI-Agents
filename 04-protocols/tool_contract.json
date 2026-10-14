@@ -1,0 +1,16 @@
+{
+  "description": "Illustrative tool contract; not a complete MCP protocol message",
+  "name": "lookup_runbook",
+  "inputSchema": {
+    "type": "object",
+    "properties": {"service": {"type": "string", "enum": ["mail", "vpn", "portal"]}},
+    "required": ["service"],
+    "additionalProperties": false
+  },
+  "output_example": {
+    "service": "vpn",
+    "source_id": "synthetic-vpn-runbook-v1",
+    "section": "Connectivity checks",
+    "text": "Check the reported error before selecting a diagnostic step."
+  }
+}
